@@ -1,8 +1,12 @@
-# React + Vite
+# 컴포넌트 만들기 과제
+---
+![Alt text](image.png)
+![Alt text](image-2.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+피그마에서 버튼을 디자인한 뒤 svg 파일을 assets 안으로  가져왔다.
 
-Currently, two official plugins are available:
+![Alt text](image-1.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+PlusButton.jsx 파일 안에 PlusButton 컴포넌트와
+MinusButton.jsx 파일 안에 MinusButton 컴포넌트를 생성해주고,
+main.jsx 파일에서 불러와 화면에 렌더링해주었다.
